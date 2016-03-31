@@ -16,6 +16,7 @@ gem 'devise_token_auth', '0.1.37'
 gem 'omniauth', '1.3.1'
 gem 'omniauth-github', '1.1.2'
 gem 'omniauth-facebook', '3.0.0'
+gem 'rack-cors', '0.4.0'
 
 group :development, :test do
   gem 'byebug'
