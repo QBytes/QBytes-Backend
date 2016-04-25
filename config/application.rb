@@ -26,7 +26,10 @@ module QBits
     config.middleware.insert_before 0, "Rack::Cors" do
       allow do
         origins '*'
-        resource '*', :headers => :any, :methods => [:get, :post, :delete, :put, :patch, :options]
+        resource '*', 
+          :headers => :any, 
+          :expose  => ['access-token', 'expiry', 'token-type', 'uid', 'client'],
+          :methods => [:get, :post, :delete, :put, :patch, :options]
       end
     end
   end

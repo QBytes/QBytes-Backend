@@ -7,8 +7,6 @@ gem 'pg'
 
 #added
 #gem 'will_paginate', '~> 3.0.6'
-#gem 'carrierwave', '0.10.0'
-#gem 'mini_magick', '4.4.0'
 #gem 'fog', '1.37.0'
 #gem 'sidekiq', '4.1.1'
 gem 'faker', '1.6.3'
@@ -17,6 +15,9 @@ gem 'omniauth', '1.3.1'
 gem 'omniauth-github', '1.1.2'
 gem 'omniauth-facebook', '3.0.0'
 gem 'rack-cors', '0.4.0'
+gem 'carrierwave', '0.10.0'
+gem 'mini_magick', '4.4.0'
+gem 'kaminari'
 
 group :development, :test do
   gem 'byebug'
